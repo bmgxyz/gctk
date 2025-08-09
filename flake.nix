@@ -18,6 +18,9 @@
           src = ./.;
           cargoLock = {
             lockFile = ./Cargo.lock;
+            outputHashes = {
+              "gcode-0.6.2-alpha.0" = "sha256-th75m5LRrX7K6kDyvK80e48zibZjZabRSJ3hlSQ1kzU=";
+            };
           };
         };
     };
